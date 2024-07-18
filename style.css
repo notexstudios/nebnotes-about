@@ -62,13 +62,22 @@ img.im{
 
 .flex{
     display:flex;
+    height: 30px;
     width: 300px;
-  float: left;
+   float: left;
+   margin-bottom: 10px;
 }
 p{
-  text-align: center;
-  margin-left: 6px;
+  display: flex;
+  margin-bottom: ;
+  justify-content: center;
+  margin-left: 25px;
 }
+.grp{
+  align-items: center;
+  display: flex;
+}
+
 
 @media screen and (max-width: 600px) {
   .box {
